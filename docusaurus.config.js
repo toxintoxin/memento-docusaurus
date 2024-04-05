@@ -87,18 +87,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'labSidebar',
-            position: 'left',
-            label: 'Lab',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'protocolSidebar',
-            position: 'left',
-            label: 'Protocol',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'rSidebar',
             position: 'left',
             label: 'R',
@@ -108,6 +96,12 @@ const config = {
             sidebarId: 'shinySidebar',
             position: 'left',
             label: 'Shiny',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'labSidebar',
+            position: 'left',
+            label: 'Lab',
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
