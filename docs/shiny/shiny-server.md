@@ -1,6 +1,6 @@
 # shiny-server
 
-## 虚拟机或物理机安装ubuntu 20.04
+## 虚拟机或物理机安装ubuntu 20.04，或云服务器
 
 创建用户的时候取一个中性的名字，该用户具有sudo权限用来执行用户管理等  
 比如systemadmin (admin是系统自带的，会冲突)  
@@ -64,11 +64,18 @@ ssh admin@ip
    为避坑，先提前安装一些必要的library
 
    `sudo apt-get install build-essential`， 否则会`sh: 1: make: not found`  
-   `sudo apt-get install libz-dev`，否则会安装不了`httpuv`(shiny的一个依赖包)  
+   `sudo apt-get install zlib1g-dev`，否则会安装不了`httpuv`(shiny的一个依赖包)  
 
    用shiny用户安装shiny
    ```
-   sudo su - shiny -c "R -e \"install.packages('shiny', repos='https://cran.rstudio.com/')\""
+   sudo su - shiny
+   R
+   install.packages('shiny', repos='https://cran.rstudio.com/')
+   yes
+   yes
+   q()
+   n
+   exit
    ```
 
    测试安装成功没  
@@ -96,11 +103,11 @@ ssh admin@ip
 
 4. 测试Shiny server
 
-   在ubuntu上进入ipaddr:3838看到欢迎页面，ipaddr:3838/sample-apps/hello/是一个简单的shinyapp
+   在ubuntu上进入localhost:3838看到欢迎页面，localhost:3838/sample-apps/hello/是一个简单的shinyapp
 
 5. 安装nginx
 
-   不懂原理，但似乎访问速度变快了  
+   sudo apt-get update  
    sudo apt-get -y install nginx  
 
 6. 部署自己的app
@@ -133,7 +140,7 @@ ssh admin@ip
       2. 不同的上传途径
          1. xiaoming在windows端开发，通过scp上传文件到linux
             在windows的cmd中  
-            scp -r d:/shiomix/app xiaoming@10.10.51.125:/home/xiaoming/shiomix  
+            scp -P 10022 -r d:/shiomix/app/ xiaoming@10.10.51.125:/srv/shiny-server/shiomix
             ssh xiaoming@10.10.51.125  
             在linux中  
             mv shiomix /srv/shiny-server/shiomix  
@@ -183,6 +190,8 @@ ssh admin@ip
       ERROR: configuration failed for package ‘curl’
       * removing ‘/home/shiny/R/x86_64-pc-linux-gnu-library/4.3/curl’
       ```
+
+      如此情况，运行sudo apt-get install libcurl4-openssl-dev
 
 7. 虚拟机暴露到局域网内
 

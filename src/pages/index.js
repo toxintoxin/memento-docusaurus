@@ -9,7 +9,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={``}
       description="Description will go into a meta tag in <head />">
       <header className={clsx(styles.heroBanner)} style={{height: "calc(100vh - 60px)"}}>
         <div className="container">
