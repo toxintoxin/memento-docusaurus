@@ -10,9 +10,9 @@ eppendorf centrifuge 5810R
 
 ## Reagent
 
-磷标准储存液，0.8787 g KH2PO4 in 100 ml deionized water (equal to 2000 μg P/ml)
-磷标准工作液，将磷标准储存液稀释100倍 (equal to 20 μg P/ml或称0.65 mM磷标准液)
-8N H2SO4 (equal to 4 mol/L H2SO4)
+磷标准储存液，0.8787 g KH2PO4 in 100 ml deionized water (equal to 2000 μg P/ml)  
+磷标准工作液，将磷标准储存液稀释100倍 (equal to 20 μg P/ml或称0.65 mM磷标准液)  
+8N H2SO4 (equal to 4 mol/L H2SO4)  
 抗坏血酸溶液，1 g抗坏血酸in 10 ml deionized water  
 钼酸盐溶液，2.5 g钼酸铵，0.07 g酒石酸锑钾，in 100 ml deionized water  
 过硫酸钾溶液，0.5 g过硫酸钾 in 10 ml deionized water  
