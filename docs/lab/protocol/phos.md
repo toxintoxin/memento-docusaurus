@@ -24,9 +24,6 @@ eppendorf centrifuge 5810R
 1. 标准管
    <table>
     <tr>
-        <td colspan="8" style="text-align: center;">标准管</td>
-    </tr>
-    <tr>
         <td>0.65mM 磷标准工作液 /μl</td>
         <td>0</td>
         <td>5</td>
