@@ -58,3 +58,9 @@ eppendorf centrifuge 5810R
 13. 室温静置20分钟显色
 14. 取100μl加到96孔板中
 15. 测定700nm波长处吸光度
+
+700是GB 11893-89的  
+820是feng以前protocol里的, [avanti](https://avantilipids.com/tech-support/analytical-procedures/determination-of-total-phosphorus)也是  
+880是过硫酸钾消解参考文献10.1016/j.talanta.2009.01.029里的  
+
+实际上, 酶标仪测得钼蓝的最大吸收峰在740

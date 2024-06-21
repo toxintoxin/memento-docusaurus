@@ -1,6 +1,6 @@
 # Coverslip
 
-24 well plate, coverslip 14mm  
+24 well plate, coverslip Φ14mm  
 用镊子铺  
 铺板时充分摇匀  
 

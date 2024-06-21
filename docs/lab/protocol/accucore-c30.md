@@ -2,7 +2,7 @@
 
 Accucore™ C30 HPLC Columns, 2.6 μm, 2.1 μm X 150 mm  
 
-volumn = pai x (2.1mm/2)<sup>2</sup> x 150mm = 520 mm<sup>3</sup> = 0.52 ml  
+volumn = π x (2.1mm/2)<sup>2</sup> x 150mm = 520 mm<sup>3</sup> = 0.52 ml  
 
 0.35 ml/min 乙腈冲洗20个柱体积, 0.52 x 20 / 0.35 = 30 min  
 
