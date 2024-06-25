@@ -1,6 +1,6 @@
 # shiny-server
 
-## 虚拟机或物理机安装ubuntu 20.04，或云服务器
+## 虚拟机或物理机安装ubuntu 22.04，或云服务器
 
 创建用户的时候取一个中性的名字，该用户具有sudo权限用来执行用户管理等  
 比如systemadmin (admin是系统自带的，会冲突)  
@@ -52,9 +52,9 @@ ssh admin@ip
    # 安装依赖
    sudo apt-get install gdebi-core  
    # 下载shiny-server
-   wget https://download3.rstudio.org/ubuntu-18.04/x86_64/shiny-server-1.5.21.1012-amd64.deb  
+   wget https://download3.rstudio.org/ubuntu-18.04/x86_64/shiny-server-1.5.22.1017-amd64.deb  
    # 安装
-   sudo gdebi shiny-server-1.5.21.1012-amd64.deb
+   sudo gdebi shiny-server-1.5.22.1017-amd64.deb
    ```
 
 3. 安装shiny
@@ -203,8 +203,8 @@ ssh admin@ip
 
 1. 管理用户组
 
-   sudo groupadd -g 6666 student  
-   查看，在最后一行可以看到`student:x:6666`  
+   sudo groupadd -g 7777 student  
+   查看，在最后一行可以看到`student:x:7777`  
    cat /etc/group  
    添加用户xiaoming到student组  
    sudo usermod -aG student xiaoming  
@@ -212,9 +212,9 @@ ssh admin@ip
 2. Anaconda
 
    下载  
-   wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh  
+   wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh  
    安装  
-   sudo bash ./Anaconda3-2023.03-Linux-x86_64.sh  
+   sudo bash ./Anaconda3-2024.02-1-Linux-x86_64.sh  
    enter下去，到同意条款  
    yes  
    问安装路径，输入
