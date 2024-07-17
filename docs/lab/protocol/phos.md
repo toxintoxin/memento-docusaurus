@@ -10,12 +10,12 @@ eppendorf centrifuge 5810R
 
 ## Reagent
 
-磷标准储存液，0.8787 g KH2PO4 in 100 ml deionized water (equal to 2000 μg P/ml)  
-磷标准工作液，将磷标准储存液稀释100倍 (equal to 20 μg P/ml或称0.65 mM磷标准液)  
-8N H2SO4 (equal to 4 mol/L H2SO4)  
-抗坏血酸溶液，1 g抗坏血酸in 10 ml deionized water  
-钼酸盐溶液，2.5 g钼酸铵，0.07 g酒石酸锑钾，in 100 ml deionized water  
-过硫酸钾溶液，0.5 g过硫酸钾 in 10 ml deionized water  
+磷标准储存液，884.56 mg KH2PO4 in 100 ml deionized water, 用容量瓶(65 mM磷储存液)  
+磷标准工作液，将磷标准储存液稀释100倍 (0.65 mM磷工作液)  
+8N H2SO4，10ml 98%浓硫酸 + 36 ml deionized water  
+抗坏血酸溶液，1 g抗坏血酸 + 10 ml deionized water, 每次新鲜配置  
+钼酸盐溶液，2.5 g钼酸铵，0.07 g酒石酸锑钾，in 100 ml deionized water, 每次新鲜配置  
+过硫酸钾溶液，0.5 g过硫酸钾 in 10 ml deionized water, 每次新鲜配置  
 
 ## Protocol
 
@@ -45,7 +45,7 @@ eppendorf centrifuge 5810R
     </tr>
     </table>
 2. 待测样品加 X μl, 补足到30μl
-3. 每管加80μl过硫酸钾溶液
+3. 每管加360μl过硫酸钾溶液
 4. 放置于氮吹仪上
 5. 管口放置一颗玻璃珠
 6. 设置90°C消解至少16小时以上
