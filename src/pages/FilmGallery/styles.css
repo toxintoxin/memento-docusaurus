@@ -1,0 +1,37 @@
+.gallery-page {
+    display: flex;
+    margin: 20px;
+  }
+  
+.film-list {
+  width: 250px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.film-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.film-item:hover {
+  background-color: #f0f0f0;
+}
+
+.gallery {
+  flex-grow: 1;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+  

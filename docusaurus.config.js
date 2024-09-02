@@ -103,6 +103,7 @@ const config = {
             position: 'left',
             label: 'Lab',
           },
+          {to: '/FilmGallery', label: 'FilmGallery', position: 'right'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/toxintoxin/memento',

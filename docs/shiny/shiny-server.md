@@ -231,3 +231,25 @@ ssh admin@ip
    xiaowang每次想要用conda的时候，都要先  
    source /opt/anaconda3/bin/activate  
    最好不要修改base!!!
+
+
+
+## nginx配置
+
+```
+sudo nano /etc/nginx/sites-enabled/default
+```
+
+在`server_name _;`这一行下面添加  
+```
+location /shiny/ {
+   proxy_pass http://localhost:3838/;
+   proxy_http_version 1.1;
+   proxy_set_header Upgrade $http_upgrade;
+   proxy_set_header Connection $connection_upgrade;
+   rewrite ^(/shiny/[^/]+)$ $1/ permanent;
+   client_max_body_size 300M;
+}
+```
+
+`client_max_body_size`是允许上传的文件大小, 要和shiny中设置的一样  

@@ -49,6 +49,6 @@ Dissolve 5.88mg of dexamethasone (Sigma D4902) in 15ml EtOH.
    ![primary cell](svf-mod-img/primary-cell.png)
 6. 用10ml SVF media将细胞重悬，过40um细胞筛，600g离心5分钟。
 7. 弃上清，将细胞重悬后铺板。
-8. 一天换一次液，待细胞长到70-80%左右，用0.25% trypsin消化传代。
-9.  等传代后的细胞长满以后，再过12个小时，加入诱导液，诱导48h。（诱导液配制： SVF media加入终浓度为5 ug/ml insulin+1uM Dexamethasone +0.5 mM isobutylmethylxanthine (IBMX) +1 uM Rosiglitazone）
+8. 经验来说，两个inguinal铺到一个100mm dish里, 每天换液的情况下，大约24x6小时长到80%
+9. 等传代后的细胞长满以后，再过12个小时，加入诱导液，诱导48h。（诱导液配制： SVF media加入终浓度为5 ug/ml insulin+1uM Dexamethasone +0.5 mM isobutylmethylxanthine (IBMX) +1 uM Rosiglitazone）
 10. 诱导48h后，换成maintain buffer（SVF media 中加入5 ug/ml insulin），每隔两天换一次maintain buffer，第6天细胞已经分化成为成熟的脂肪细胞。

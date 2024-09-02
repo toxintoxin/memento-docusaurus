@@ -307,3 +307,9 @@ D:\Anaconda3\envs\r_env\Library\mingw-w64\bin
 建立.bat  
 内容为  
 code "path of folder" | exit  
+
+
+## reference
+
+Windows 10 + Anaconda + r-base +Radian（terminated with exit code: 1）R 环境配置终极解决方案
+[https://blog.csdn.net/Y1575071736/article/details/120692120](https://blog.csdn.net/Y1575071736/article/details/120692120)
