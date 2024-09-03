@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmemento=self.webpackChunkmemento||[]).push([[8529],{7870:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"blog-like-gallery"}')}}]);
