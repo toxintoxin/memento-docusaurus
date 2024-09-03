@@ -103,7 +103,7 @@ const config = {
             position: 'left',
             label: 'Lab',
           },
-          {to: '/FilmGallery', label: 'FilmGallery', position: 'right'},
+          {to: '/analog-gallery', label: 'Analog Gallery', position: 'right'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/toxintoxin/memento',
@@ -150,6 +150,28 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'blog-like-gallery',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'analog-gallery',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './gallery/analog',
+      },
+    ],
+  ],
+
 };
 
 export default config;

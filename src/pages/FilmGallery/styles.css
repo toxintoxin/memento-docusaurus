@@ -3,23 +3,37 @@
     margin: 20px;
   }
   
-.film-list {
-  width: 250px;
-  border-right: 1px solid #ccc;
-  padding: 10px;
-}
-
-.film-item {
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #ccc;
-  font-size: 14px;
-}
-
-.film-item:hover {
-  background-color: #f0f0f0;
-}
-
+  .film-list {
+    width: 300px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .film-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .film-card:hover {
+    background-color: #e9ecef;
+  }
+  
+  .film-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .film-card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
 .gallery {
   flex-grow: 1;
   padding: 10px;
