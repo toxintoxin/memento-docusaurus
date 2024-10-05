@@ -59,19 +59,22 @@ ref: https://doi.org/10.1038/nprot.2012.142
 > 取样根据脂肪含量不同而大小不同，如果是肝脏需要两片肝  
 
 1. 在研钵中加入冷的Buffer A(含0.2mM PMSF)12mL
-2. 加液氮使用研钵研磨后（约10 次），100g 离心10min（4°C），吸出上层溶液放冰上待用。
+2. 加液氮使用研钵研磨后（约10 次），500 xg, 4°C, 离心5min，吸出上层溶液放冰上待用。
 
 ### 从组织匀浆液或cell culture开始
 
-1. 破碎细胞：在冰上使用35bar 15min 破碎细胞。
-2. 3000g 离心10min（4°C）去除细胞核及细胞碎片。保留上层溶液（PNS），分装500uL 在冰上用于最后LD 纯度检测。
-3. 转移10mL PNS 到SW40 tube 中，并在上层加入2mL BufferB（可以多加一点，加的越多LD 越纯）
-4. 离心：肝脏为2000g，30min；细胞为182000g，1h
-5. 用枪头小心收集最上层的LD，尽可能多的吸取LD，应为纯白色，可分装一部分用于计算total fraction的比值。（枪头吸之前先用Buffer B润一下，一次吸少于10uL，少量多次）
-6. 吸取1ml离心后的胞质，270000g离心1h，收集上层并分装500uL作为Cytosol fraction
-7. 吸出中间层，并在SW tube沉淀中加入1mL Buffer B重悬，吸取50uL作为total membrane fraction
-8. 将脂滴离心20000g,5min后用gel-loading tip吸出上层溶液。每管LD不超过10uL，若超过需要分装。
-9. 用200uL Buffer B重悬后重复上一步骤。洗两次。
+1. 6个150mm dish为一个样本, 胰酶消化并离心后, 用9 mL Buffer A with 0.2 mM PMSF重悬合并
+2. 破碎细胞：在冰上使用35bar 15min 破碎细胞。(细胞破碎仪的话, 经验来说, 800bar破碎4遍)
+3. 1,000 xg, 4 °C, 离心10min, 去除细胞核及细胞碎片。保留上层溶液 (PNS)，分装200μL在冰上用于最后LD 纯度检测。
+4. 转移PNS到SW41 tube中，并在上层加入2mL BufferB（可以多加一点，加的越多LD 越纯）
+5. 离心：肝脏为2,000 xg，30min；细胞为40,000 rpm，3h
+6. 用枪头小心收集最上层的LD，尽可能多的吸取LD，应为纯白色，可分装一部分用于计算total fraction的比值。（枪头吸之前先用Buffer B润一下，一次吸少于10μL，少量多次）
+7. 吸取1ml离心后的胞质，270000g离心1h，收集上层并分装500μL作为Cytosol fraction
+8. 吸出中间层，并在SW tube沉淀中加入1mL Buffer B重悬，吸取50μL作为total membrane fraction
+9. 将脂滴离心17,000 xg, 10min, 用gel-loading tip吸出上层溶液。每管LD不超过10μL，若超过需要分装。(实际情况弃去下层溶液保留上层白色脂滴更为简单)
+10. 用200μL Buffer B重悬后重复上一步骤。洗两次。
+
+> 最后获得的脂滴, 可以加入1 mL CHCl3/Acetone (1/1, v/v), vortex, 17,000 xg, 4 °C, 离心10 min, 上清用于提取脂质, 沉淀用PBS溶解用于WB
 
 ### LD质量评估
 

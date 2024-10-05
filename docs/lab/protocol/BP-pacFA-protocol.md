@@ -16,7 +16,7 @@ preparation:
 
 click mix:  
 1mM copper sulfate  
-1mM TCEP (or 10mM sodium ascorbate)  
+1mM TCEP (or 1mM sodium ascorbate)  
 100μM TBTA  
 2μM A488-azide (or 2μM others)  
 in PBS  

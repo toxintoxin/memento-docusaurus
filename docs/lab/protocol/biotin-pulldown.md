@@ -3,18 +3,18 @@ Click reaction with biotin-azide for 30 min at 37 °C, respectively. The final c
 for 1-2mg lysates  
 
 my personal version:  
-for 2000μg lysates
+for 500μg lysates
 
 1. 收集细胞并提取蛋白以后, BCA测定蛋白含量
 2. 配置10x click mix, 10mM CuSO4, 10mM TCEP, 1000μM TBTA, 2000μM biotin-azide  
 3. 细胞蛋白提取液中加入10x click mix, incubate for 1h at 37°C
 4. 加入4倍体积-20°C预冷的乙醇, 短暂vortex以后, 放至-80°C过夜, 以沉淀蛋白
-5. 离心21000xg, 30min, 4°C
+5. 离心17000xg, 30min, 4°C
 6. -20°C预冷的EtOH/H2O (80:20) 洗两次
 7. -20°C预冷的Acetone洗一次
 8. 旋干
-9. 加入80μL bufferA(50mM HEPES, 4% LDS, 1mM EDTA), 加热到50°C并振荡直至蛋白完全溶解
-10. 用 50 mM HEPES（pH 7.6）将 样品中的LDS 稀释至 0.5% 的最终浓度，然后加入 80 µL 用 50 mM HEPES（pH 7.6）和 0.5% LDS 预平衡过的 Streptavidin sepharose 珠中。
+9. 加入20μL bufferA(50mM HEPES, 4% LDS, 1mM EDTA), 加热到50°C并振荡直至蛋白完全溶解
+10. 用 50 mM HEPES（pH 7.6）将 样品中的LDS 稀释至 0.5% 的最终浓度，然后加入 13 µL 用 50 mM HEPES（pH 7.6）和 0.5% LDS 预平衡过的 Streptavidin sepharose 珠中。
     1. 商品平衡至室温
     2. 混合均匀后取所需量的加入ep管中, (用剪去尖头的枪头吸)
     3. 500g离心1分钟, 去除储存液, 不要吸到树脂
@@ -25,3 +25,4 @@ for 2000μg lysates
 13. 加入500μL 50 mM HEPES (pH 7.6) 和 0.5% LDS, 室温下颠倒混匀旋转30min, 500g离心3分钟, 去上清
 14. 重复步骤13共三次
 15. 加还原型loading buffer煮10min
+

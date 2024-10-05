@@ -10,12 +10,14 @@ eppendorf centrifuge 5810R
 
 ## Reagent
 
-磷标准储存液，884.56 mg KH2PO4 in 100 ml deionized water, 用容量瓶(65 mM磷储存液)  
-磷标准工作液，将磷标准储存液稀释100倍 (0.65 mM磷工作液)  
-8N H2SO4，10ml 98%浓硫酸 + 36 ml deionized water  
-抗坏血酸溶液，1 g抗坏血酸 + 10 ml deionized water, 每次新鲜配置  
-钼酸盐溶液，2.5 g钼酸铵，0.07 g酒石酸锑钾，in 100 ml deionized water, 每次新鲜配置  
-过硫酸钾溶液，0.5 g过硫酸钾 in 10 ml deionized water, 每次新鲜配置  
+提前充分烘干的KH2PO4粉末  
+磷标准储存液，136.09 mg KH2PO4 in 100 ml deionized water, 用容量瓶(10 mM磷储存液)  
+磷标准工作液，将磷标准储存液稀释1000倍 (10 μM磷工作液)  
+中性过硫酸钾溶液，0.5 g过硫酸钾 in 10 ml deionized water, 调整PH到6.5, 每次新鲜配置  
+9.2N H2SO4，浓硫酸/水 (1/1, v/v)  
+钼酸盐溶液，2.4 g钼酸铵，0.15 g酒石酸锑钾，in 50 ml deionized water, 每次新鲜配置  
+MIX, 稀硫酸/钼酸盐溶液/去离子水 (1/1/18, v/v/v)
+抗坏血酸溶液，0.1 g抗坏血酸 + 10 ml deionized water, 每次新鲜配置  
 
 ## Protocol
 
@@ -64,3 +66,8 @@ eppendorf centrifuge 5810R
 890是过硫酸钾消解参考文献10.1016/j.talanta.2009.01.029里的  
 
 实际上, 酶标仪测得钼蓝的最大吸收峰在740
+
+600
+120
+90
+90
