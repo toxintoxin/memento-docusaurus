@@ -140,8 +140,8 @@ ssh admin@ip
       2. 不同的上传途径
          1. xiaoming在windows端开发，通过scp上传文件到linux
             在windows的cmd中  
-            scp -P 10022 -r d:/shiomix/app/ xiaoming@10.10.51.125:/srv/shiny-server/shiomix
-            ssh xiaoming@10.10.51.125  
+            scp -P 10022 -r d:/shiomix/app/ xiaoming@10.10.51.122:/srv/shiny-server/shiomix
+            ssh xiaoming@10.10.51.122  
             在linux中  
             mv shiomix /srv/shiny-server/shiomix  
             ls -l /srv/shiny-server  
