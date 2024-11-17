@@ -2,19 +2,19 @@
 
 ## Sample preparation
 
-1. 取400ul 样品到2ml EP管
-2. 加入10ul 内标（0.5 ng/ml in ethanol），涡旋
+1. 取400μL 样品到2ml EP管
+2. 加入10μL 内标 (0.5 ng/mL in ethanol), 涡旋
 3. 用1N HCl调节PH至3.0 (500ul组织研磨液加10ul)
-4. 1.2ml of Hexane : MTBE (50:50, v/v) into the tube, then vortex for 1min
+4. 1.2mL of Hexane : MTBE (50:50, v/v) into the tube, then vortex for 1min
 5. Centrifuge 5 minutes at 5000g
 6. 转移上清至新的2ml tube
 7. 重复步骤4, 5
 8. 合并上清液，吹干
-9. Reconstitute with 50 µl of mobile phase A ，vortex，超声5min,14000g离心取35ul上清至进样瓶
+9. Reconstitute with 50 µl of mobile phase A , vortex, 超声5min,14000g离心取35ul上清至进样瓶
 
 > 组织样品离心后上清液有脂质出现，转移时要避开  
-> 2ml EP管离心后不好吸，可转移至1.5mlEP管  
-> 转移的上清不能有沉淀，可用20ul枪吸两次  
+> 2ml EP管离心后不好吸, 可转移至1.5mlEP管  
+> 转移的上清不能有沉淀, 可用20ul枪吸两次  
 
 Mobile phase A: Water:Acetonitrile:Formic acid = 63:37:0.02  
 Mobile phase B: Acetonitrile:Isopropyl alcohol = 50:50  
@@ -23,7 +23,7 @@ Column: Kinetex 2.6 μm C18, 100 x 2.1 mm
 
 Inject volumn: 5 μl (tissue)
 
-| Method Time<br>(minutes) | Mobile phase<br>A% | Mobile phase<br>B% | Flow Rate<br>(μL/min) |
+| Method Time (minutes) | Mobile phase A% | Mobile phase B% | Flow Rate (μL/min) |
 | ------------------------ | ------------------ | ------------------ | --------------------- |
 | 0.00                     | 100                | 0                  | 350                   |
 | 6.00                     | 92                 | 8                  | 350                   |
@@ -33,7 +33,6 @@ Inject volumn: 5 μl (tissue)
 | 14.00                    | 0                  | 100                | 350                   |
 | 14.50                    | 100                | 0                  | 350                   |
 | 17.00                    | 100                | 0                  | 350                   |
-
 
 ![Figure 1. Major enzymatic pathways for the synthesis of arachidonic acid-derived eicosanoids](PGs-method/fig-1.png)  
 Figure 1. Major enzymatic pathways for the synthesis of arachidonic acid-derived eicosanoids  
