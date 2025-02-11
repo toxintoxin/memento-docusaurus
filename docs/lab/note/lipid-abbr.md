@@ -38,3 +38,8 @@
 | Phosphatidylserine                  | PS      |
 | Sphingomyelin                       | SM      |
 | Triacylglycerol                     | TAG     |
+
+Hexosylceramide (HexCer) could be Glucosylceramides (GlcCer) or Galactosylceramides (GalCer)  
+![alt text](lipid-abbr/glc.png)  
+![alt text](lipid-abbr/gal.png)  
+Dihexosylceramides (Hex2Cer) could be Lactosylceramides (LacCer) or ???  
