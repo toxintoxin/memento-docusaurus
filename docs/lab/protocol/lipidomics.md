@@ -10,7 +10,7 @@
 |Ammonium formate||CNW|安谱|CAEQ-4-014568-0050|
 
 The formic acid can be dispensed into a small bottle.
-Ammonium formate is prepared in a small bottle at a concentration of 5M.
+Ammonium formate is prepared in a small bottle at a concentration of 5M. The density of ammonium formate is relatively low. It is recommended to add 12.61g of ammonium formate to a 50ml centrifuge tube, then bring the volume up to 40ml, resulting in a final concentration of 5M, which is sufficient for a long period of use.
 
 ### Solution A
 
