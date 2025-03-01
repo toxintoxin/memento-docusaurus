@@ -1,4 +1,4 @@
-# RNA extraction
+# Real-time PCR
 
 TRNzol universal, 天根
 
@@ -30,3 +30,14 @@ EP管用Axygen的
     3. 可以先将样品RNA浓度都稀释到一样
     4. 55°C 20min, 85°C 5min, 4°C ∞
 18. cDNA保存于-20°C, 使用时稀释10倍用于做q-PCR
+
+q-PCR:
+
+mix: 诺维赞SYBR Green
+
+1. 将反转的cDNA稀释10倍 (vortex注意按住, 盖子容易崩开)
+2. 计算好所需量的mix和引物, 多加3个余量, 每个基因(mix 5μL + gene-F (10μM) 0.2μL + gene-R (10μM) 0.2μL) x (样品数 + 3)
+3. 取384孔板, 不要碰上面和下面
+4. 先加mix再加cDNA 4.6μL (不要有气泡)
+5. 2800rpm, 5min
+6. 跑仪器, 设置好, 设10μL
