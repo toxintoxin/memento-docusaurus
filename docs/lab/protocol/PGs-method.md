@@ -1,4 +1,4 @@
-# shiA Targeted Metabolomic Approach to Analyze Arachidonic Acid-Derived Lipid Mediators by Liquid Chromatography – Mass Spectrometry
+# Arachidonic Acid Derived Lipids
 
 ## Sample preparation
 
