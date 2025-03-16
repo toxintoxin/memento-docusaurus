@@ -105,6 +105,12 @@ const config = {
             position: 'left',
             label: 'Lab',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'fastlabSidebar',
+            position: 'left',
+            label: 'fastlab',
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/toxintoxin/memento',
