@@ -1,48 +1,20 @@
-# 启动项目
+# start
 
-技术栈
+## Technology stack
 
 前端: React (Next.js) + TailwindCSS  
 后端: FastAPI + MongoDB  
-桌面端封装: Tauri  
+桌面端封装: Flutter  
 自动更新: GitHub Releases
 
-## Date
-
-2025-03-16
-
-## Prerequisites
+## 开发平台windows11 23H2
 
 
-### System
-
-ubuntu 22.04
-
-### Rust
+## flutter
 
 ```
-curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+{Flutter安装路径}\flutter\packages\flutter_tools\lib\src\http_host_validator.dart
 ```
 
-### Node.js
-
-```
-# Download and install nvm:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-
-# in lieu of restarting the shell
-\. "$HOME/.nvm/nvm.sh"
-
-# Download and install Node.js:
-nvm install 22
-
-# Verify the Node.js version:
-node -v # Should print "v22.14.0".
-nvm current # Should print "v22.14.0".
-
-# Verify npm version:
-npm -v # Should print "10.9.2".
-```
-
-## Create a project
-
+pub.dev：        https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+kMaven：        https://maven.aliyun.com/repository/google/
