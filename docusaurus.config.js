@@ -114,7 +114,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/toxintoxin/memento-docusaurus',
-            label: 'GitHub',
+            label: 'GitHub-link',
             position: 'right',
           },
         ],
