@@ -16,12 +16,12 @@ const config = {
   url: 'https://toxintoxin.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/memento/',
+  baseUrl: '/memento-docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'toxintoxin', // Usually your GitHub org/user name.
-  projectName: 'memento', // Usually your repo name.
+  projectName: 'memento-docusaurus', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/toxintoxin/memento/tree/main/',
+            'https://github.com/toxintoxin/memento-docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: false,
@@ -54,7 +54,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/toxintoxin/memento/tree/main/',
+          //   'https://github.com/toxintoxin/memento-docusaurus/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -113,7 +113,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/toxintoxin/memento',
+            href: 'https://github.com/toxintoxin/memento-docusaurus',
             label: 'GitHub-link',
             position: 'right',
           },
