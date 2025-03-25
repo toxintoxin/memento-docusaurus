@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmemento=self.webpackChunkmemento||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/memento-docusaurus/blog","blogTitle":"Blog","authorsListPath":"/memento-docusaurus/blog/authors"}')}}]);

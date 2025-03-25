@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmemento=self.webpackChunkmemento||[]).push([[2307],{6260:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/memento-docusaurus/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
