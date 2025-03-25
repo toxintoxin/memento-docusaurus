@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-lab/protocol/master" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">Lipidomic analysis: Yeast, Mammals and Worms | JY&#x27;s memento</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://toxintoxin.github.io/memento/img/social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://toxintoxin.github.io/memento/img/social-card.jpg"><meta data-rh="true" property="og:url" content="https://toxintoxin.github.io/memento/docs/lab/protocol/master"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Lipidomic analysis: Yeast, Mammals and Worms | JY&#x27;s memento"><meta data-rh="true" name="description" content="Yeast sample collection and extraction"><meta data-rh="true" property="og:description" content="Yeast sample collection and extraction"><link data-rh="true" rel="icon" href="/memento/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://toxintoxin.github.io/memento/docs/lab/protocol/master"><link data-rh="true" rel="alternate" href="https://toxintoxin.github.io/memento/docs/lab/protocol/master" hreflang="en"><link data-rh="true" rel="alternate" href="https://toxintoxin.github.io/memento/docs/lab/protocol/master" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/memento/blog/rss.xml" title="JY&#39;s memento RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/memento/blog/atom.xml" title="JY&#39;s memento Atom Feed"><link rel="stylesheet" href="/memento/assets/css/styles.0844a8ad.css">
+<script src="/memento/assets/js/runtime~main.de434ba2.js" defer="defer"></script>
+<script src="/memento/assets/js/main.774ee17d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/memento/"><div class="navbar__logo"><img src="/memento/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/memento/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">JY&#x27;s memento</b></a><a class="navbar__item navbar__link" href="/memento/docs/mess/camera">Mess</a><a class="navbar__item navbar__link" href="/memento/docs/workflow/edge">Workflow</a><a class="navbar__item navbar__link" href="/memento/docs/r/bio-stat">R</a><a class="navbar__item navbar__link" href="/memento/docs/shiny/share">Shiny</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/memento/docs/lab/note/lipid-abbr">Lab</a><a class="navbar__item navbar__link" href="/memento/docs/fastlab/oldstart">fastlab</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/memento/blog">Blog</a><a href="https://github.com/toxintoxin/memento" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub-link<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/memento/docs/lab/note/lipid-abbr">note</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/memento/docs/lab/protocol/3ple">protocol</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/3ple">3PLE</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/ATGL-DGAT">ATGL-DGAT</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/BMDM-isolation">BMDM isolation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/BP-pacFA-protocol">BP-pacFA-protocol</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/PGs-method">Arachidonic Acid Derived Lipids</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/accucore-c30">Accucore C30</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/biotin-pulldown">biotin-pulldown</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/click-imaging">click-imaging</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/coomassie">考马斯亮蓝染色</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/coverslip">Coverslip</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/direct-injection">Direct Injection</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/immunofluorescence">immunofluorescence</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/lipid-droplet-isolation">Lipid droplet isolation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/lipidomics">Lipidomics</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/liver-brain-plasma">Liver, Brain, Plasma</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/lysates-click">lysates click reaction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/memento/docs/lab/protocol/master">Lipidomic analysis: Yeast, Mammals and Worms</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/ms-method-ref">ms-method-ref</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/phos">磷的标定</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/preparation-of-istd">Preparation of istd of lipidomics</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/reagent">Reagent</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/real-time-pcr">Real-time PCR</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/serum-delipidation">serum-delipidation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/super-cent">超离步骤</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/surface -biotinylation">Surface Biotinylation Assay</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/svf-gupta">Isolation and Differentiation of Primary Adipose SVF cells</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/svf-mod">Isolation and Differentiation of Primary Adipose SVF cells</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/tca">TCA</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/tissue-grinding">组织研磨</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/memento/docs/lab/protocol/western-blot">Western Blot</a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/memento/docs/lab/website">构建实验室网站，基于docusaurus</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/memento/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">protocol</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Lipidomic analysis: Yeast, Mammals and Worms</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Lipidomic analysis: Yeast, Mammals and Worms</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="yeast-sample-collection-and-extraction">Yeast sample collection and extraction<a href="#yeast-sample-collection-and-extraction" class="hash-link" aria-label="Direct link to Yeast sample collection and extraction" title="Direct link to Yeast sample collection and extraction">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="collection-of-yeast-samples">Collection of yeast samples<a href="#collection-of-yeast-samples" class="hash-link" aria-label="Direct link to Collection of yeast samples" title="Direct link to Collection of yeast samples">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ypuad-medium-1l">YPUAD medium (1L)<a href="#ypuad-medium-1l" class="hash-link" aria-label="Direct link to YPUAD medium (1L)" title="Direct link to YPUAD medium (1L)">​</a></h4>
+<blockquote>
+<p>20g glucose<br>
+<!-- -->10g Bacto Peptone<br>
+<!-- -->20g Bacto Yeast extract<br>
+<!-- -->1.95g MES hydrate<br>
+<!-- -->40mg of each L-Tryptophan, Uracil and Adenine</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol">Protocol<a href="#protocol" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Day 1: If needed, take the strain out of the –80°C and plate on appropriate plates.</li>
+<li>Day 3: Evening, inoculate a 3ml preculture from one colony and grow in YPUAD.</li>
+<li>Day 4: Evening, inoculate a 50 ml culture (YPUAD) with 1.3 μl of the preculture.</li>
+<li>Day 5: Grow cells until OD600nm = 1.1-1.5 and collect 2 x 25 OD600nm<!-- -->
+<ul>
+<li>In a 50 ml FALCON tube, pipette 2.5 ml 100% TCA.</li>
+<li>Fill with the culture to 50 ml (5% TCA final).</li>
+<li>Incubate for at least 10 minutes on ice.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm on Eppendorf 5810).</li>
+<li>Wash the cell pellet with 10 ml 5% TCA.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm on Eppendorf 5810).</li>
+<li>Resuspend the cell pellet in 5 ml water and transfer the appropriate amount to have 25 OD into two 10 ml glass tubes (one for the pyridine extraction and one for the chloroform/methanol extraction).</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm on Eppendorf 5810).</li>
+<li>Remove the supernatant and freeze the tubes at -80°C.</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="important">Important<a href="#important" class="hash-link" aria-label="Direct link to Important" title="Direct link to Important">​</a></h4>
+<p>The analysis should be done on at least two biological replicates, three ideally. Biological replicates means separate cultures started from different colonies.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="yeast-pyridine-extraction-for-phospholipid-and-sphingolipid-analysis">Yeast pyridine extraction for phospholipid and sphingolipid analysis<a href="#yeast-pyridine-extraction-for-phospholipid-and-sphingolipid-analysis" class="hash-link" aria-label="Direct link to Yeast pyridine extraction for phospholipid and sphingolipid analysis" title="Direct link to Yeast pyridine extraction for phospholipid and sphingolipid analysis">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="extraction-solvent">Extraction solvent<a href="#extraction-solvent" class="hash-link" aria-label="Direct link to Extraction solvent" title="Direct link to Extraction solvent">​</a></h4>
+<blockquote>
+<p>45ml ethanol<br>
+<!-- -->45ml water<br>
+<!-- -->15ml diethyl ether<br>
+<!-- -->3ml pyridine<br>
+<!-- -->54μl ammonium hydroxide (4.2N) (stable for 1-2 weeks)</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-1">Protocol<a href="#protocol-1" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Take the tubes containing the cell pellets out of the -80°C.</li>
+<li>Add 500 μl glass beads and 25 μl of internal standard mix.</li>
+<li>Add 1.5 ml extraction solvent.</li>
+<li>Vortex for 6 minutes on a multivortexer.</li>
+<li>Incubate for 20 minutes at 60°C.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm on Eppendorf 5810).</li>
+<li>Transfer the supernatant to a clean 13 mm diameter tube (13mm diameter tubes are the only ones that can fit in the Centrivap).</li>
+<li>Add 1.5 ml extraction solvent to the beads.</li>
+<li>Vortex for 6 minutes on a multivortexer.</li>
+<li>Incubate for 20 minutes at 60°C.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm on Eppendorf 5810).</li>
+<li>Combine the second supernatant with the first one.</li>
+<li>Divide into 2 aliquots of equal amounts, one for the phospholipid (total) lipid analysis and one for the sphingolipid analysis.</li>
+<li>Dry under a flow of N2 or in the Centrivap (start at room temperature, then increase gradually the temperature every 15 minutes : 30, 35, 40, 50, 60 °C). The time for drying depends on the number on samples, it takes 5-6h for 24 samples (= 48 tubes).</li>
+<li>Flush the samples dried in the Centrivap with N2 and store at -80°C.</li>
+<li>Do an n-butanol extraction (protocol p.17) on the aliquot for the total lipid analysis and a methylamine treatment (protocol p.16) on the aliquot for the sphingolipid analysis.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="yeast-chloroform-extraction-for-total-lipids-gc-ms-analysis">Yeast CHLOROFORM<!-- -->:METHANOL<!-- --> extraction for total lipids GC-MS analysis<a href="#yeast-chloroform-extraction-for-total-lipids-gc-ms-analysis" class="hash-link" aria-label="Direct link to yeast-chloroform-extraction-for-total-lipids-gc-ms-analysis" title="Direct link to yeast-chloroform-extraction-for-total-lipids-gc-ms-analysis">​</a></h3>
+<p>Modified after Folch, J., Lees, M. and Stanley, G.H.S. (1957), J. Biol. Chem., 226, 497-509</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="solvents-and-solutions">Solvents and solutions<a href="#solvents-and-solutions" class="hash-link" aria-label="Direct link to Solvents and solutions" title="Direct link to Solvents and solutions">​</a></h4>
+<blockquote>
+<p>Methanol, Chloroform<br>
+<!-- -->Chloroform/Methanol (1:2, v/v)<br>
+<!-- -->0.034% MgCl2<br>
+<!-- -->2M KCl/Methanol (4:1, v/v)<br>
+<!-- -->Artificial Upper Phase: Chloroform/Methanol/Water (3:48:47, v/v/v)</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-2">Protocol<a href="#protocol-2" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Add 500 μl glass beads and the internal standard (Cholesterol).</li>
+<li>Resuspend in 600 μl H2O.</li>
+<li>Add 1500 μl methanol.</li>
+<li>Vortex for 1 minute on the multivortexer.</li>
+<li>Add 750μl chloroform.</li>
+<li>Vortex for 6 minutes on the multivortexer.</li>
+<li>Transfer the supernatant to new tubes.</li>
+<li>Add 600 μl chloroform<!-- -->:methanol<!-- --> (1:2) to the beads.</li>
+<li>Vortex and combine the second supernatant with the first one.</li>
+<li>Add 400 μl 0.034% MgCl2 to the supernatants.</li>
+<li>Vortex for 1 minute on the multivortexer.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm).</li>
+<li>Take off the aqueous upper phase without removing the protein layer.</li>
+<li>Add 400 μl 2M KCl/methanol (4:1) to the lower phase.</li>
+<li>Vortex for 1 minute on the multivortexer.</li>
+<li>Centrifuge for 5 minutes at 800g (2000rpm).</li>
+<li>Take off the aqueous upper phase without removing the protein layer.</li>
+<li>Add 400 μl Artificial Upper Phase to the lower phase.</li>
+<li>Vortex well and centrifuge for 5 minutes at 800g (2000rpm).</li>
+<li>Take off the aqueous upper phase without removing the protein layer.</li>
+<li>Transfer the organic phase in a new tube.</li>
+<li>Add 400 μl Artificial Upper Phase to the organic phase.</li>
+<li>Vortex well and centrifuge for 10 minutes at 3200g (4000rpm).</li>
+<li>Take off the aqueous upper phase without removing the protein layer.</li>
+<li>Transfer the organic phase in 2 amber glass vials (one for direct analysis and one for the backup).</li>
+<li>Dry under a flow of N2 or in the Centrivap.</li>
+<li>Flush samples with N2 if dried in the Centrivap and store at –80°C.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mammalian-sample-collection-and-extraction">Mammalian sample collection and extraction<a href="#mammalian-sample-collection-and-extraction" class="hash-link" aria-label="Direct link to Mammalian sample collection and extraction" title="Direct link to Mammalian sample collection and extraction">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="collection-of-mammalian-samples">Collection of mammalian samples<a href="#collection-of-mammalian-samples" class="hash-link" aria-label="Direct link to Collection of mammalian samples" title="Direct link to Collection of mammalian samples">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="from-cell-culture">From cell culture<a href="#from-cell-culture" class="hash-link" aria-label="Direct link to From cell culture" title="Direct link to From cell culture">​</a></h4>
+<ul>
+<li>Plate cells so that they have about the same confluency at the time of cell harvest. <strong>This is very important. Confluency greatly influences lipid concentration!</strong></li>
+<li>You need one confluent 6 or 10cm dish per lipid extraction.</li>
+<li>Cell collection can be done under non-sterile conditions on the bench.</li>
+<li>Take off medium and wash cells carefully with ice-cold PBS.</li>
+<li>Place cells on ice; tilt the dish so that remaining rest of PBS can be collected. Never let the cells dry out! Always close the lid.</li>
+<li>Add 500μl of fresh ice cold PBS per plate. Scrape the cells off the dish using a Costar cell lifter. Work on ice, try to be fast, collect cells on one side of the dish.</li>
+<li>Transfer 500μl cell suspension to a 1.5 ml  eppendorf tube.</li>
+<li>Take an aliquot aside for BCA protein assay (typically 50μl)</li>
+<li>Spin down cells at 2500rpm, 5min, 4°C.</li>
+<li>Take off the PBS using a pipet (do not aspirate). The cell pellets can be frozen at -20°C or directly used for BCA assay and lipid extraction.</li>
+<li>For BCA assay : resuspend pellet in 55μl of lysis buffer (M-PER, Thermo Scientific).</li>
+<li>For lipid extraction: continue with MTBE extraction protocol.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="from-tissue">From tissue<a href="#from-tissue" class="hash-link" aria-label="Direct link to From tissue" title="Direct link to From tissue">​</a></h4>
+<p>Best way is to pulverize the tissue in liquid nitrogen. If this is not possible, this is very important to have at least pieces of the same size.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mammalian-methyl-tert-buthyl-ether-mtbe-extraction-for-total-lipids-gclc-analysis">Mammalian methyl-<em>tert</em>-buthyl ether (MTBE) extraction for total lipids GC/LC analysis<a href="#mammalian-methyl-tert-buthyl-ether-mtbe-extraction-for-total-lipids-gclc-analysis" class="hash-link" aria-label="Direct link to mammalian-methyl-tert-buthyl-ether-mtbe-extraction-for-total-lipids-gclc-analysis" title="Direct link to mammalian-methyl-tert-buthyl-ether-mtbe-extraction-for-total-lipids-gclc-analysis">​</a></h3>
+<p>Modified after Matyash (2008) J.LipidRes. 49; 1137-1146</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="solvents">Solvents<a href="#solvents" class="hash-link" aria-label="Direct link to Solvents" title="Direct link to Solvents">​</a></h4>
+<blockquote>
+<p>MTBE<br>
+<!-- -->Artificial upper phase: MTBE/methanol/water (10:3:1.5, v/v)</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-3">Protocol<a href="#protocol-3" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>
+<p>From cell culture samples :</p>
+<ol>
+<li>Start with a confluent 6 or 10cm dish.</li>
+<li>Collect the cells into a 2ml eppendorf tube.</li>
+<li>Place the tube on ice.</li>
+<li>Add 100 μl H2O.</li>
+<li>Add 360 μl methanol</li>
+<li>Add the internal standard mix.</li>
+<li>Add 1.2 ml MTBE.</li>
+<li>Vortex for 10 minutes at 4°C (coldroom).</li>
+</ol>
+</li>
+<li>
+<p>From mammalian tissue samples:</p>
+<ol>
+<li>Cool down the Cryolysis machine to 3°C.</li>
+<li>Start with 20-30mg, keep the samples on ice until the breaking.</li>
+<li>Resuspend tissue material in 100 μl H2O.</li>
+<li>Transfer cell suspension into a 2ml eppendorf tube for the Cryolysis system.</li>
+<li>Add 50 μl Zirconium beads.</li>
+<li>Add 360 μl methanol</li>
+<li>Add the internal standard mix.</li>
+<li>Break the tissue with 3 bursts of 45&#x27; at 6200 rpm with 45&#x27; interruptions.</li>
+<li>Add 1.2 ml MTBE.</li>
+</ol>
+</li>
+<li>
+<p>The following steps are for both starting material:</p>
+<ul>
+<li>Incubate on a shaker for 1 hour at room temperature.</li>
+<li>Add 200 μl H2O to the mixture to induce phase separation and vortex.</li>
+<li>Incubate for 10 minutes at room temperature.</li>
+<li>Centrifuge for 10 minutes at 1000g.</li>
+<li>Transfer the upper phase in a new 2 ml glass tube.</li>
+<li>Add 400μl of the artificial upper phase to the lower phase and vortex.</li>
+<li>Incubate for 10 minutes at room temperature.</li>
+<li>Centrifuge for 10 minutes at 1000g.</li>
+<li>Combine the second upper phase with the first one.</li>
+</ul>
+</li>
+<li>
+<p>The following steps are for overall lipid extraction:</p>
+<ul>
+<li>Transfer the suspension to 1.5 mL vial.</li>
+<li>Dry samples under a stream of nitrogen or in a Centrivap at 40°C.</li>
+<li>Fill the vials with nitrogen to remove oxygen.</li>
+<li>Seal the vials with parafilm and store at -80°C.</li>
+<li>For MS analysis, dissolve the extracts with 100 uL of chloroform/methanol(1/1,v/v,HPLC grade) and transfer to inserts.</li>
+<li>For possible precipitation in samples,  put the insert to a 1.5 mL centrifuge tube and centrifuge at 13,000 rpm for 2 minutes</li>
+<li>Transfer 80 uL to a new inserts for MS analysis.</li>
+<li>Divide extracts into three parts, (one for phospholipid analysis (TL) and one for sphingolipid analysis (SL) and one for sterols analysis (S)).</li>
+<li>Dry samples either under a stream of nitrogen or in a Centrivap at 50°C.</li>
+<li>Do a methylamine treatment on the sphingolipid part (protocol p.16).</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="worm-sample-collection-and-extraction">Worm sample collection and extraction<a href="#worm-sample-collection-and-extraction" class="hash-link" aria-label="Direct link to Worm sample collection and extraction" title="Direct link to Worm sample collection and extraction">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="collection-of-worm-samples">Collection of worm samples<a href="#collection-of-worm-samples" class="hash-link" aria-label="Direct link to Collection of worm samples" title="Direct link to Collection of worm samples">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="synchronization">Synchronization<a href="#synchronization" class="hash-link" aria-label="Direct link to Synchronization" title="Direct link to Synchronization">​</a></h4>
+<ul>
+<li>Collect gravid adults and their eggs from five 10 cm plates</li>
+<li>Add 1.5 mL bleaching solution (4% NaOH in commercial bleach) to worms in 3.5 mL water, incubate until mothers start breaking open (ca. 4-5 min)</li>
+<li>3x wash with ddH2O</li>
+<li>Resuspend in 1.5 mL M9 buffer</li>
+<li>Incubate at 20-22°C with shaking for 24 hours to let eggs hatch.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="growth">Growth<a href="#growth" class="hash-link" aria-label="Direct link to Growth" title="Direct link to Growth">​</a></h4>
+<ul>
+<li>Dilute the starved larvae in 10 mL</li>
+<li>Take 10 μL and count the larvae</li>
+<li>Spin at 600 g for 1 min and resuspend in 1 mL</li>
+<li>Plate 8000 larvae per 15 cm NGM plate seeded with 1 mL of 10x concentrated OP50 bacteria</li>
+<li>Grow for 3 days at 20°C until they are young adults and just start laying eggs. They will have some eggs inside, but no larvae on the plate.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="collection">Collection<a href="#collection" class="hash-link" aria-label="Direct link to Collection" title="Direct link to Collection">​</a></h4>
+<ul>
+<li>Wash the worms but not the eggs gently off the plate with ddH2O</li>
+<li>Put them in a 15 mL Falcon tube</li>
+<li>Spin at 600 g for 1 min and wash bacteria away with ddH2O</li>
+<li>Resuspend in 1 mL and transfer to a Cryolysis tube</li>
+<li>Spin at 1000 g for 2 min and wash with 1mL MS-H2O (I put the eppendorf tubes through a falcon tube cap and spin like this on a swing rotor table top to get a nice and dense pellet)</li>
+<li>Spin at 1000 g for 2 min and take off the maximum of supernatant</li>
+<li>Freeze in liquid nitrogen</li>
+<li>Keep at -80°C.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="worm--chloroform-extraction-for-total-lipids-gclc-ms-analysis">Worm  CHLOROFORM<!-- -->:METHANOL<!-- --> extraction for total lipids GC/LC-MS analysis<a href="#worm--chloroform-extraction-for-total-lipids-gclc-ms-analysis" class="hash-link" aria-label="Direct link to worm--chloroform-extraction-for-total-lipids-gclc-ms-analysis" title="Direct link to worm--chloroform-extraction-for-total-lipids-gclc-ms-analysis">​</a></h3>
+<p>Modified after Bligh, EG et Dyer, WJ (1959) Canadian Journal of Biochemistry and Physiology, 37(8): 911-917</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="solvents-1">Solvents<a href="#solvents-1" class="hash-link" aria-label="Direct link to Solvents" title="Direct link to Solvents">​</a></h4>
+<blockquote>
+<p>Methanol, Chloroform, LC-MS Water<br>
+<!-- -->Chloroform/Methanol (1:2, v/v)</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-4">Protocol<a href="#protocol-4" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Cool down the Cryolysis machine to 3°C.</li>
+<li>Add 100 μL 1.4 mm zirconium oxide beads and 800 μL MS-H2O.</li>
+<li>Break worms with 3 bursts of 45&#x27; at 6200 rpm with 45&#x27; interruptions; keep at 3-4°C</li>
+<li>Elute lysate into a glass tube with lipid standards (use wide rim glass tubes where the cryolysis tubes fit in, make wholes into lid and bottom of the tubes with a hot needle, and centrifuge them in the table top centrifuge at 600g).</li>
+<li>Elute again with 200 μL MS-H2O.</li>
+<li>Add 3.6 mL chloroform<!-- -->:methanol<!-- --> (1:2) and vortex well (at this point there should only be one phase; in case of phase separation, some methanol can be added).</li>
+<li>Spin at 800g for 5min and transfer the supernatant to a new glass tube.</li>
+<li>Induce phase separation by adding 0.5 mL of LC-MS-H2O and 0.5 mL of chloroform.</li>
+<li>Vortex well.</li>
+<li>Centrifuge at 800g for 5min.</li>
+<li>Transfer the lower organic phase and split into two 13mm glass tubes (total lipids and sphingolipids).</li>
+<li>Treat the sphingolipid fraction with methylamine (protocol p. 16).</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="worm-sterol-preparation">Worm Sterol Preparation<a href="#worm-sterol-preparation" class="hash-link" aria-label="Direct link to Worm Sterol Preparation" title="Direct link to Worm Sterol Preparation">​</a></h4>
+<p>Hannich et al. (2009) Dev Cell 16(6):833-43</p>
+<ul>
+<li>Do a Bligh and Dyer extraction from approximately 40,000 young adults adding 8nmoles of ergosterol standard</li>
+<li>Saponify total lipid extracts in 1 mL 3M KOH<!-- -->:methanol<!-- --> (1:9; v<!-- -->:v<!-- -->) at 80°C for 1 hour</li>
+<li>Extract unsaponified lipids three times with 0.5 mL hexane</li>
+<li>Remove fatty acids using a QAE-Sephadex A-50 column (Pharmacia Fine Chemicals AB, Uppsala, Sweden)</li>
+<li>Analyze remaining lipids by GC/MS</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="methylamine-treatment-for-sphingolipid-analysis-on-ms-basic-hydrolysis-of-ester-bonds-to-remove-glycerolipids">Methylamine treatment for sphingolipid analysis on MS (basic hydrolysis of ester bonds to remove glycerolipids)<a href="#methylamine-treatment-for-sphingolipid-analysis-on-ms-basic-hydrolysis-of-ester-bonds-to-remove-glycerolipids" class="hash-link" aria-label="Direct link to Methylamine treatment for sphingolipid analysis on MS (basic hydrolysis of ester bonds to remove glycerolipids)" title="Direct link to Methylamine treatment for sphingolipid analysis on MS (basic hydrolysis of ester bonds to remove glycerolipids)">​</a></h3>
+<p>Modified after Clarke and Dawson (1981), Bioch.J. 195; 301-306 and Cheng et al, Molecular and Cellular Biology, Vol. 21, N° 18, Sept.2001, p. 6198-6209</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="monomethylamine-reagent">Monomethylamine reagent<a href="#monomethylamine-reagent" class="hash-link" aria-label="Direct link to Monomethylamine reagent" title="Direct link to Monomethylamine reagent">​</a></h4>
+<blockquote>
+<p>4ml methanol<br>
+<!-- -->3ml H2O<br>
+<!-- -->1ml n-butanol<br>
+<!-- -->5ml methylamine</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-5">Protocol<a href="#protocol-5" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Add 0.5 ml freshly made Monomethylamine reagent to the dried aliquot for the sphingolipid analysis and vortex well.</li>
+<li>Sonicate for 5 minutes and vortex well.</li>
+<li>Incubate for 1 hour at 53°C with the cap tightly closed.</li>
+<li>Dry the lipids under N2 or with the Centrivap (start for 30 minutes at 50°C and then increase to 60°C). It takes 1-2h to dry.</li>
+<li>Do an n-butanol extraction on the dried lipids.</li>
+<li>Flush the samples dried in the Centrivap with N2 and store at -80°C if the n-butanol extraction (protocol p. 17 or 18) is not done the same day.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="n-butanol-extraction-to-desalt-samples-for-ms-analysis">n-butanol extraction to desalt samples for MS analysis<a href="#n-butanol-extraction-to-desalt-samples-for-ms-analysis" class="hash-link" aria-label="Direct link to n-butanol extraction to desalt samples for MS analysis" title="Direct link to n-butanol extraction to desalt samples for MS analysis">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="n-butanol-saturated-with-h2o">n-butanol saturated with H2O<a href="#n-butanol-saturated-with-h2o" class="hash-link" aria-label="Direct link to n-butanol saturated with H2O" title="Direct link to n-butanol saturated with H2O">​</a></h4>
+<ul>
+<li>In a glass bottle, prepare a solution n-butanol/H2O (2:1 v/v) (LC-MS grade).</li>
+<li>Shake well and let it decant.</li>
+<li>Take the upper phase to do the extraction.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-6">Protocol<a href="#protocol-6" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Resuspend the dried lipid extracts in 300 μl n-butanol saturated with H2O.</li>
+<li>Vortex well and sonicate for 5 minutes.</li>
+<li>Add 150 μl H2O (LC-MS grade), vortex well and centrifuge for 10 min at 3200g  (4000 rpm on a Eppendorf 5810).</li>
+<li>Transfer the upper phase (Butanol Phase (BP) 1) in a 2ml amber glass tube. This can be done with a plastic yellow tip.</li>
+<li>Add 300 μl n-butanol saturated with H2O, vortex well and centrifuge for 10 min at 3200g.</li>
+<li>Combine upper phase (BP 2) with BP 1.</li>
+<li>Add 300 μl n-butanol saturated with H2O, vortex well and centrifuge for 10 min at 3200g.</li>
+<li>Combine upper phase (BP 3) with BP 1+BP 2.</li>
+<li>Optional: divide in two aliquots: one for the direct analysis and one for a backup.</li>
+<li>Dry the combined butanol phases under N2 or with the Centrivap (start for 30 minutes at 50°C and then increase to 60°C). It takes 2-3h.</li>
+<li>Flush the samples dried in the Centrivap with N2.</li>
+<li>Store at -80°C.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="alternative-n-butanol-extraction-to-desalt-samples-for-ms-analysis">Alternative n-butanol extraction to desalt samples for MS analysis<a href="#alternative-n-butanol-extraction-to-desalt-samples-for-ms-analysis" class="hash-link" aria-label="Direct link to Alternative n-butanol extraction to desalt samples for MS analysis" title="Direct link to Alternative n-butanol extraction to desalt samples for MS analysis">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="n-butanol-saturated-with-h2o-1">n-butanol saturated with H2O<a href="#n-butanol-saturated-with-h2o-1" class="hash-link" aria-label="Direct link to n-butanol saturated with H2O" title="Direct link to n-butanol saturated with H2O">​</a></h4>
+<ul>
+<li>In a glass bottle, prepare in advance a solution 2/3 n-butanol, 1/3 H2O (LC-MS grade).</li>
+<li>Shake well and let the phases separate.</li>
+<li>Take the upper phase to do the extraction.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-7">Protocol<a href="#protocol-7" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h4>
+<ul>
+<li>Resuspend lipids in in 300 μl n-butanol saturated with H2O.</li>
+<li>Sonicate for 3min.</li>
+<li>Prepare original eppendorf tubes and add 150μl H2O to each.</li>
+<li>Transfer the resuspended lipids into the new tubes.</li>
+<li>Vortex well and centrifuge for 5 min. at 13000rpm.</li>
+<li>Transfer the upper phase (Butanol Phase 1) into a MS glass vial (final vial).</li>
+<li>Repeat extraction. Add 300 μl n-butanol saturated with H2O to the original glass tube to rinse remaining lipids from the wall of the tube.</li>
+<li>Transfer the resuspended lipids into the tube containing the remaining aqueous phase (150μl H2O).</li>
+<li>Vortex well and centrifuge for 5 min. at 13000rpm.</li>
+<li>Transfer the upper phase (Butanol Phase 2) from the final glass vial.</li>
+<li>Add 300ul n-butanol saturated with H2O to the aqueous phase (wash of the H2O phase).</li>
+<li>Vortex well and centrifuge at 13000rpm for 5min.</li>
+<li>Transfer the upper phase (Butanol phase 3) into the final glass vial.</li>
+<li>Dry the combined butanol phases under N2 or with the centrivap at 50°C for 30min, then at 60°C (3-4h).</li>
+<li>Flush the dried samples with N2 and the store the samples at -80°C.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="determination-of-total-phosphorus-content">Determination of total phosphorus content<a href="#determination-of-total-phosphorus-content" class="hash-link" aria-label="Direct link to Determination of total phosphorus content" title="Direct link to Determination of total phosphorus content">​</a></h2>
+<p>(from Miwa Umebayashi)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="material-and-solutions">Material and solutions<a href="#material-and-solutions" class="hash-link" aria-label="Direct link to Material and solutions" title="Direct link to Material and solutions">​</a></h3>
+<blockquote>
+<p>Tubes:  Pyrex® 13x10mm borosilicate glass tubes<br>
+<!-- -->Plates: 96 flat microwell plates<br>
+<!-- -->Standard solution: 3mM KH2PO4<br>
+<!-- -->70% perchloric acid<br>
+<!-- -->1.25% (w/v) NH4Molybdate in H2O<br>
+<!-- -->1.67% (w/v) ascorbic acid (100mg in 6 ml) in H2O</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-8">Protocol<a href="#protocol-8" class="hash-link" aria-label="Direct link to Protocol" title="Direct link to Protocol">​</a></h3>
+<ul>
+<li>Resuspend the total lipid extract aliquot in 250 μl</li>
+<li>Pipette 50 μl for the yeast, worm and mammalian tissue extracts and 100 μl for the mammalian cell culture extract in borosilicate glass tubes</li>
+<li>Dry carefully the samples (organic solvents inhibit the reaction)</li>
+<li>Pipette the standard curve: 0, 2, 5, 10 and 20 μl of standard solution and complete all the points to 20 μl with H2O</li>
+<li>Add 20 μl H2O to the samples</li>
+<li>Add 140 μl 70% perchloric acid to all tubes and vortex well</li>
+<li>Incubate the tubes at 180°C for 1 hour in a heating block (has to be done under a well closed hood with high ventilation, because the reaction produce toxic and irritating vapors)</li>
+<li>Remove the tubes from the heating block and let them cool down at room temperature for at least 5 minutes.</li>
+<li>Prepare the reaction solution (this has to be prepared fresh, because the solutions are not stable for a long time) : H2O / 1.25% NH4Molybdate / 1.67% ascorbic acid (5:2:1 v/v)</li>
+<li>Put a marble on each tube to prevent evaporation</li>
+<li>Incubate the tubes at 100°C for 5 minutes in a heating block</li>
+<li>Remove tubes from the heating block and allow them to cool down for 5 to 10 minutes</li>
+<li>For each standard curve point and sample transfer 2 times 100 μl of the reaction into the 96 microwell plate.</li>
+<li>Measure the absorbance at 820 nm.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="phospholipids-and-sphingolipids--sample-preparation-running-on-tsq-and-analysis-through-the-pipeline">Phospholipids and Sphingolipids : Sample preparation, running on TSQ and analysis through the pipeline<a href="#phospholipids-and-sphingolipids--sample-preparation-running-on-tsq-and-analysis-through-the-pipeline" class="hash-link" aria-label="Direct link to Phospholipids and Sphingolipids : Sample preparation, running on TSQ and analysis through the pipeline" title="Direct link to Phospholipids and Sphingolipids : Sample preparation, running on TSQ and analysis through the pipeline">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sample-preparation">Sample preparation<a href="#sample-preparation" class="hash-link" aria-label="Direct link to Sample preparation" title="Direct link to Sample preparation">​</a></h3>
+<ul>
+<li>Resuspend samples in 250 μl chloroform / methanol (CHROMASOLV LC-MS grade, 1:1, v/v) and sonicate for 5 minutes.</li>
+<li>Always work with Hamilton syringes.</li>
+<li>Dilutions of the samples are made directly in an Eppendorf twin.tec PCR 96 well plate to a final volume of 100 μl. Take up the solvent first and then fill up to 100 μl with your sample. For example, for PC, PE take up 99 μl of solvent then 1 μl of sample and pipette into the appropriate well.</li>
+<li>Cover your wells with parafilm to avoid evaporation of your sample during pipetting.</li>
+<li>After you are done, seal the plate with Easy Pierce 20μm Foil (Thermo Scientific).</li>
+<li>Samples should be run immediately. Alternatively, they can be stored overnight at 4°C.  Stored samples need to be sonicated before use.</li>
+</ul>
+<blockquote>
+<p><strong>Positive mode solvent</strong><br>
+<!-- -->Chloroform/Methanol/Water (2:7:1, v/v) + 5mM Ammonium Acetate<br>
+<strong>Negative mode solvent</strong><br>
+<!-- -->Chloroform/Methanol (1:2, v/v) + 5mM Ammonium Acetate</p>
+</blockquote>
+<p><strong>Always prepare fresh solvent and a fresh solution of 1M Ammonium Acetate  (MS grade) in water (MS grade).</strong></p>
+<table><thead><tr><th>Lipid Class</th><th>Dilutions by Organism</th><th>Dilutions by Organism</th><th>Dilutions by Organism</th></tr></thead><tbody><tr><td>PC, PE</td><td>1/100</td><td>1/10</td><td>1/10</td></tr><tr><td>PI, PS, CL</td><td>1/100</td><td>1/4</td><td>1/10</td></tr><tr><td>SL (positive mode)</td><td>1/10</td><td>1/10</td><td>1/4</td></tr><tr><td>SL (negative mode)</td><td>1/10</td><td>1/4</td><td>1/4</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sample-running-on-the-mass-spectrometer-tsq-vantage">Sample Running on the Mass Spectrometer (TSQ Vantage)<a href="#sample-running-on-the-mass-spectrometer-tsq-vantage" class="hash-link" aria-label="Direct link to Sample Running on the Mass Spectrometer (TSQ Vantage)" title="Direct link to Sample Running on the Mass Spectrometer (TSQ Vantage)">​</a></h3>
+<ul>
+<li>Prepare a .csv sample file for the sequence on the TSQ.</li>
+<li>Naming samples should follow this pattern: <strong>FreeTextOnSample_MrmMethod_BiologicalReplicate_TechnicalReplicate</strong></li>
+<li>There are 4 different MRM methods:<!-- -->
+<blockquote>
+<p>p1 (positive mode, TL)<br>
+<!-- -->p2 (positive mode, SL)<br>
+<!-- -->n1 (negative mode, TL)<br>
+<!-- -->n2 (negative mode, SL)</p>
+</blockquote>
+</li>
+<li>Biological and technical replicates should be named in numerical or alphabetical order. <strong>Example:</strong> Con_p1_1_1 or Con_p1_1_A means: Control (Con)_positive mode TL_biological replicate 1_technical replicate 1.</li>
+<li>Be careful with the naming of the folder and of the files since it is very important if you want to send the experiment through the calculation pipeline.</li>
+<li>At the end of the sequence have a quick look at the runs in Excalibur and check that everything is fine for all the samples.</li>
+<li>If there is one run with no signal rerun it immediately (same solvent, same time for the machine) and replace it in the raw file&#x27;s folder. Zip the folder containing only the experimental raw files and load on <a href="http://lipidx.vital-it.ch/base/exps" target="_blank" rel="noopener noreferrer">http://lipidx.vital-it.ch/base/exps</a>.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="analysis-on-the-lipidx-pipeline">Analysis on the LipidX pipeline<a href="#analysis-on-the-lipidx-pipeline" class="hash-link" aria-label="Direct link to Analysis on the LipidX pipeline" title="Direct link to Analysis on the LipidX pipeline">​</a></h3>
+<ul>
+<li>Go to the <a href="http://lipidx.vital-it.ch/base/pages/1" target="_blank" rel="noopener noreferrer">http://lipidx.vital-it.ch/base/pages/1</a> website and log in with your user name.</li>
+<li>Go to “Experiments” (menu up the page) and click on New experiment (bottom of the page).</li>
+<li>Fill up the page (Experiment type: MRM analysis) and click on Create button.</li>
+<li>After a certain time the “Experiments” page appears, but the new experiment may not be listed, because it takes some time to convert the .raw files in .txt files.</li>
+<li>When the new experiment is listed, click on the link Show (right of the line). This will open a new page with a listing the experiment files and on top of it a line with different links.</li>
+<li>First, click on Standard concentrations and check that the amount of input for each standard is correct.</li>
+<li>Second, click on Signals. A page with a color code for the intensities appears. If the signal is missing for one of the cycle (very light pink, white), there is a possibility to eliminate it by clicking in the small box up the column. Click then on “Update cycle selection” (bottom right of the page). The data is now ready to be sent to the calculation part of the pipeline.</li>
+<li>Click on “Tools” (menu up the page), then on MRMquant (menu on the right of the page) and on  New MRMquant job (top or bottom of the page).</li>
+<li>Fill up the page, be careful with the selection of the calibration curve and click on create.</li>
+<li>Refresh the page until the message “Success” appears in the column status.</li>
+<li>The MRMquant job can then be seen by clicking on Show the (right of the line).</li>
+<li>To download a MRMquant job, select it by clicking in the box on the left and click on “Download”.</li>
+<li>The downloaded folder contains for each mode p1, n1, p2 and n2, the following . csv files:<!-- -->
+<ul>
+<li>concentrations_by_cycle</li>
+<li>log10_median-signal</li>
+<li>median_concentration</li>
+<li>median_concentration_by_biorepl</li>
+<li>st_dev_concentration</li>
+<li>st_dev_log10_signals</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sterols-sample-preparation-running-on-the-varian-320ms-and-analysis">Sterols: Sample preparation, running on the VARIAN 320MS and analysis<a href="#sterols-sample-preparation-running-on-the-varian-320ms-and-analysis" class="hash-link" aria-label="Direct link to Sterols: Sample preparation, running on the VARIAN 320MS and analysis" title="Direct link to Sterols: Sample preparation, running on the VARIAN 320MS and analysis">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sample-preparation-1">Sample preparation<a href="#sample-preparation-1" class="hash-link" aria-label="Direct link to Sample preparation" title="Direct link to Sample preparation">​</a></h3>
+<ul>
+<li>Resuspend samples in 250 μl chloroform/methanol (CHROMASOLV LC-MS grade, 1:1) and sonicate for 5 min.</li>
+<li>Dilute in the same solvent (C/M, 1:1).<!-- -->
+<blockquote>
+<p>Yeast : dilution 1:5<br>
+<!-- -->Mammalian : dilution 1:2<br>
+<!-- -->Worms : very low amount of sterols, big prep needed<br>
+<!-- -->Flush the samples briefly with N2 to prevent oxidation of sterols.</p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sample-running-on-the-mass-spectrometer-320ms">Sample Running on the Mass Spectrometer (320MS)<a href="#sample-running-on-the-mass-spectrometer-320ms" class="hash-link" aria-label="Direct link to Sample Running on the Mass Spectrometer (320MS)" title="Direct link to Sample Running on the Mass Spectrometer (320MS)">​</a></h3>
+<ul>
+<li>Fill the Sample List directly on the machine.</li>
+<li>For each sample load 5 μl.</li>
+<li>Run the method : 080604 FS sterols</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="analysis">Analysis<a href="#analysis" class="hash-link" aria-label="Direct link to Analysis" title="Direct link to Analysis">​</a></h3>
+<ul>
+<li>For each sterol, extract the specific ion.<!-- -->
+<ul>
+<li>Ergosterol (m/z = 396)</li>
+<li>Cholesterol (m/z=386)</li>
+<li>Ergosterol esters (m/z = 378)</li>
+<li>Cholesterol esters (m/z = 368)</li>
+</ul>
+</li>
+<li>Integrate the area under the peak.</li>
+<li>Transfer these values into Excel and calculate the quantities using the standard curves for cholesterol and ergosterol.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="internal-standards-for-lc-gc--ms">Internal standards for LC-GC / MS<a href="#internal-standards-for-lc-gc--ms" class="hash-link" aria-label="Direct link to Internal standards for LC-GC / MS" title="Direct link to Internal standards for LC-GC / MS">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="important-1">Important<a href="#important-1" class="hash-link" aria-label="Direct link to Important" title="Direct link to Important">​</a></h3>
+<ul>
+<li>Keep the standard solutions in amber glass vials.</li>
+<li>Always pipette the standards with Hamilton glass syringes.</li>
+<li>To avoid evaporation and variations, it is strongly recommended to prepare a set of standard mixes for several experiments and keep them dry at -80°C.</li>
+<li>Prepare this set of standard mixes for different numbers of samples (ex.: for 6, 12, and 24 samples) to avoid waste of standards.</li>
+<li>Always prepare at least one more standard mix than the number of samples, e.g. a standard mix for 25 samples will be sufficient for 24 samples. You will have losses on the tube wall and due to evaporation.</li>
+<li>Always use CHROMASOLV, LC-MS grade if possible, solvents.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="standards-used-for-lipidomic">Standards used for lipidomic<a href="#standards-used-for-lipidomic" class="hash-link" aria-label="Direct link to Standards used for lipidomic" title="Direct link to Standards used for lipidomic">​</a></h3>
+<table><thead><tr><th>Standard</th><th>Organism</th><th>Provider</th><th>Product Nr</th></tr></thead><tbody><tr><td><strong>PC31:1</strong> Phosphatidylcholine (PC)17:0-14:1</td><td>Y</td><td>Avanti</td><td>LM-1004</td></tr><tr><td><strong>DLPC</strong> Phosphatidylcholine (PC)12:0-12:0</td><td>M-W</td><td>Avanti</td><td>850335</td></tr><tr><td><strong>PE31:1</strong> Phosphatidylethanolamine (PE)17:0-14:1</td><td>Y-M</td><td>Avanti</td><td>LM-1104</td></tr><tr><td><strong>DLPE</strong> Phosphatidylethanlamine (PE)12:0-12:0</td><td>W</td><td>Avanti</td><td>850702</td></tr><tr><td><strong>PI31:1</strong> Phosphatidylinositol (PI)17:0-14:1</td><td>Y-M-W</td><td>Avanti</td><td>LM-1504</td></tr><tr><td><strong>PS31:1</strong> Phosphatidylserine (PS)17:0-14:1</td><td>Y-M</td><td>Avanti</td><td>LM-1304</td></tr><tr><td><strong>DLPS</strong> (PS)12:0-12:0</td><td>W</td><td>Avanti</td><td>840038</td></tr><tr><td><strong>CL56:0</strong> Cardiolipin (CL)14:0-14:0-14:0-14:0</td><td>Y-M-W</td><td>Avanti</td><td>710332</td></tr><tr><td><strong>C17Cer</strong> Ceramide (Cer)d18:1-17:0</td><td>Y-M-W</td><td>Avanti</td><td>860517</td></tr><tr><td><strong>C8GC</strong> Glucosylceramide (GlcCer)d18:1-8:0</td><td>Y-M-W</td><td>Avanti</td><td>860540</td></tr><tr><td><strong>C12SM</strong> Sphingomyelin (SM)d18:1-12:0</td><td>Y-M-W</td><td>Avanti</td><td>860583</td></tr><tr><td><strong>C16</strong> deoxyDHCer</td><td>W</td><td>Avanti</td><td>860462</td></tr><tr><td><strong>Cholesterol</strong></td><td>Y</td><td>Sigma</td><td>C-8667</td></tr><tr><td><strong>Ergosterol</strong></td><td>M-W</td><td>Fluka</td><td>45480</td></tr><tr><td>Y=Yeast M=Mammalian W=Worms</td><td></td><td></td><td></td></tr></tbody></table>
+<p>The lipid standards are synthetic analogs of natural gycerophosphoipids and sphingolipids which can be obtained from Avanti Polar Lipids. For sterol analysis we use cholesterol for yeast samples as standard since the endogenous sterol of yeast cells is ergosterol and ergosterol for mammalian samples and worms as the endogenous one is cholesterol.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="yeast-standard-mix">Yeast standard mix<a href="#yeast-standard-mix" class="hash-link" aria-label="Direct link to Yeast standard mix" title="Direct link to Yeast standard mix">​</a></h4>
+<p>For the yeast, a mix of 7 different lipid standards is used for the glycerophospholipid and sphingolipid analysis and cholesterol for the sterol analysis</p>
+<p>Glycerophospholipid and sphingolipid standard mix for 25OD :</p>
+<table><thead><tr><th>Standard</th><th>nmole</th><th>μl stock</th></tr></thead><tbody><tr><td>PC31:1</td><td>7.5</td><td>7.5</td></tr><tr><td>PE31:1</td><td>7.5</td><td>7.5</td></tr><tr><td>PI31:1</td><td>6</td><td>6</td></tr><tr><td>PS31:1</td><td>4</td><td>4</td></tr><tr><td>CL56:0</td><td>4</td><td>4</td></tr><tr><td>C17Cer</td><td>1.2</td><td>12</td></tr><tr><td>C8GC</td><td>2</td><td>2</td></tr></tbody></table>
+<p>Cholesterol standard for 25OD :</p>
+<table><thead><tr><th>Standard</th><th>nmole</th><th>μl stock</th></tr></thead><tbody><tr><td>Cholesterol</td><td>20</td><td>20</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="mammalian-standard-mix">Mammalian standard mix<a href="#mammalian-standard-mix" class="hash-link" aria-label="Direct link to Mammalian standard mix" title="Direct link to Mammalian standard mix">​</a></h4>
+<p>For mammalian lipid analysis, a mix of 9 different lipid standards is used.</p>
+<p>One mix is for a confluent 6-10cm dish of mammalian cells (≈ 1 x 106 CHO cells) or 20-30mg of tissue.</p>
+<table><thead><tr><th>Standard</th><th>nmole</th><th>μl stock</th></tr></thead><tbody><tr><td>DLPC</td><td>0.4</td><td>0.4</td></tr><tr><td>PE31:1</td><td>1</td><td>1</td></tr><tr><td>PI31:1</td><td>1</td><td>1</td></tr><tr><td>CL56:0</td><td>0.7</td><td>0.7</td></tr><tr><td>C12SM</td><td>2.5</td><td>2.5</td></tr><tr><td>C17Cer</td><td>0.5</td><td>0.5</td></tr><tr><td>C8GC</td><td>0.1</td><td>0.1</td></tr><tr><td>Ergosterol</td><td>8</td><td>8</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="worm-standard-mix">Worm standard mix<a href="#worm-standard-mix" class="hash-link" aria-label="Direct link to Worm standard mix" title="Direct link to Worm standard mix">​</a></h4>
+<p>For worm lipid analysis, a mix of 9 different lipid standards is used.</p>
+<p>One mix is for 8000 worms.</p>
+<table><thead><tr><th>Standard</th><th>nmole</th><th>μl stock</th></tr></thead><tbody><tr><td>DLPC</td><td>0.4</td><td>0.4</td></tr><tr><td>DLPE</td><td>1</td><td>1</td></tr><tr><td>PI31:1</td><td>1</td><td>1</td></tr><tr><td>DLPS</td><td>3.3</td><td>3.3</td></tr><tr><td>CL56:0</td><td>0.7</td><td>0.7</td></tr><tr><td>C12SM</td><td>2.5</td><td>2.5</td></tr><tr><td>C17Cer</td><td>0.5</td><td>0.5</td></tr><tr><td>C8GC</td><td>0.1</td><td>0.1</td></tr><tr><td>C16 deoxyDHCer</td><td>0.1</td><td>0.1</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-of-the-standard-mixes">Preparation of the standard mixes<a href="#preparation-of-the-standard-mixes" class="hash-link" aria-label="Direct link to Preparation of the standard mixes" title="Direct link to Preparation of the standard mixes">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-of-standards-stock-solutions">Preparation of standards stock solutions<a href="#preparation-of-standards-stock-solutions" class="hash-link" aria-label="Direct link to Preparation of standards stock solutions" title="Direct link to Preparation of standards stock solutions">​</a></h4>
+<ul>
+<li>Prepare a stock solution of 1.0 µmol/ml of each standard in Chloroform/Methanol (1:1).</li>
+<li>Confirm the concentration of PC, PE, PI, PS and CL by a phosphate assay.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="pipetting-and-handling">Pipetting and handling<a href="#pipetting-and-handling" class="hash-link" aria-label="Direct link to Pipetting and handling" title="Direct link to Pipetting and handling">​</a></h4>
+<ul>
+<li>Pipette the appropriate amount of each standard in a 2 ml amber vial.</li>
+<li>Dry and keep at -80°C.</li>
+<li>Just before use, resuspend the mix in the appropriate amount of Chloroform/methanol (1:1): (number of samples + 1) *20 or 25 μl.</li>
+<li>Vortex and sonicate for 5min.</li>
+<li>Add 20 or 25 μl of the standard mix or sterol standard to each sample at the beginning of the extraction (use Hamilton glass syringes).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="detection-on-the-mass-spectrometer">Detection on the Mass Spectrometer<a href="#detection-on-the-mass-spectrometer" class="hash-link" aria-label="Direct link to Detection on the Mass Spectrometer" title="Direct link to Detection on the Mass Spectrometer">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lc-ms-on-tsq">LC-MS on TSQ<a href="#lc-ms-on-tsq" class="hash-link" aria-label="Direct link to LC-MS on TSQ" title="Direct link to LC-MS on TSQ">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="detection-of-lipids-by-msms">Detection of Lipids by MS/MS<a href="#detection-of-lipids-by-msms" class="hash-link" aria-label="Direct link to Detection of Lipids by MS/MS" title="Direct link to Detection of Lipids by MS/MS">​</a></h4>
+<table><thead><tr><th>Lipid class</th><th>standard</th><th>Polarity</th><th>Mode</th><th>m/z ion</th></tr></thead><tbody><tr><td>Phosphatidylcholine [M+H]<sup>+</sup></td><td>PC31:1</td><td>+</td><td>Product ion</td><td>184.07</td></tr><tr><td>Phosphatidylethanolamine [M+H]<sup>+</sup></td><td>PE31:1</td><td>+</td><td>Neutral ion loss</td><td>141.02</td></tr><tr><td>Phosphatidylinositol [M-H]<sup>-</sup></td><td>PI31:1</td><td>-</td><td>Product ion</td><td>241.01</td></tr><tr><td>Phosphatidylserine [M-H]<sup>-</sup></td><td>PS31:1</td><td>-</td><td>Neutral ion loss</td><td>87.03</td></tr><tr><td>Cardiolipin [M-2H]<sup>2-</sup></td><td>CL56:0</td><td>-</td><td>Product ion</td><td>acyl chain</td></tr><tr><td>Ceramides [M+H]<sup>+</sup></td><td>C17Cer</td><td>+</td><td>Product ion</td><td>264.30</td></tr><tr><td>MIPC [M-H]<sup>-</sup></td><td>C8GC</td><td>-</td><td>Product ion</td><td>241.01</td></tr><tr><td>MIPC [M-H]<sup>-</sup></td><td>C8GC</td><td>-</td><td>Product ion</td><td>421.07</td></tr><tr><td>M(IP)2C [M-H]<sup>-</sup></td><td>C8GC</td><td>-</td><td>Product ion</td><td>241.01</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="lc-ms-standard-transitions">LC-MS standard transitions<a href="#lc-ms-standard-transitions" class="hash-link" aria-label="Direct link to LC-MS standard transitions" title="Direct link to LC-MS standard transitions">​</a></h4>
+<table><thead><tr><th>Standard</th><th>Polarity</th><th>m/z (Q1)</th><th>m/z (Q3)</th></tr></thead><tbody><tr><td>DLPC</td><td>+</td><td>622.44</td><td>184.07</td></tr><tr><td>PC31:1</td><td>+</td><td>718.54</td><td>184.07</td></tr><tr><td>DLPE</td><td>+</td><td>580.40</td><td>439.38</td></tr><tr><td>PE31:1</td><td>+</td><td>676.49</td><td>535.47</td></tr><tr><td>C12SM</td><td>+</td><td>647.51</td><td>184.07</td></tr><tr><td>C8GC</td><td>+</td><td>588.43</td><td>264.30</td></tr><tr><td>C17Cer</td><td>+</td><td>552.54</td><td>264.30</td></tr><tr><td>C16 deoxyDHCer</td><td>+</td><td>524.54</td><td>268.30</td></tr><tr><td>PI31:1</td><td>-</td><td>793.49</td><td>241.01</td></tr><tr><td>DLPS</td><td>-</td><td>622.37</td><td>535.34</td></tr><tr><td>PS31:1</td><td>-</td><td>718.47</td><td>631.43</td></tr><tr><td>CL56:0</td><td>-</td><td>619.42</td><td>227.20</td></tr><tr><td>C8GC</td><td>-</td><td>586.43</td><td>424.38</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="gc-ms-on-varian">GC-MS on Varian<a href="#gc-ms-on-varian" class="hash-link" aria-label="Direct link to GC-MS on Varian" title="Direct link to GC-MS on Varian">​</a></h4>
+<ul>
+<li>Full scan</li>
+<li>Mode EDR</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/toxintoxin/memento/tree/main/docs/lab/protocol/master.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/memento/docs/lab/protocol/lysates-click"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">lysates click reaction</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/memento/docs/lab/protocol/ms-method-ref"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">ms-method-ref</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#yeast-sample-collection-and-extraction" class="table-of-contents__link toc-highlight">Yeast sample collection and extraction</a><ul><li><a href="#collection-of-yeast-samples" class="table-of-contents__link toc-highlight">Collection of yeast samples</a></li><li><a href="#yeast-pyridine-extraction-for-phospholipid-and-sphingolipid-analysis" class="table-of-contents__link toc-highlight">Yeast pyridine extraction for phospholipid and sphingolipid analysis</a></li><li><a href="#yeast-chloroform-extraction-for-total-lipids-gc-ms-analysis" class="table-of-contents__link toc-highlight">Yeast CHLOROFORM extraction for total lipids GC-MS analysis</a></li></ul></li><li><a href="#mammalian-sample-collection-and-extraction" class="table-of-contents__link toc-highlight">Mammalian sample collection and extraction</a><ul><li><a href="#collection-of-mammalian-samples" class="table-of-contents__link toc-highlight">Collection of mammalian samples</a></li><li><a href="#mammalian-methyl-tert-buthyl-ether-mtbe-extraction-for-total-lipids-gclc-analysis" class="table-of-contents__link toc-highlight">Mammalian methyl-<em>tert</em>-buthyl ether (MTBE) extraction for total lipids GC/LC analysis</a></li></ul></li><li><a href="#worm-sample-collection-and-extraction" class="table-of-contents__link toc-highlight">Worm sample collection and extraction</a><ul><li><a href="#collection-of-worm-samples" class="table-of-contents__link toc-highlight">Collection of worm samples</a></li><li><a href="#worm--chloroform-extraction-for-total-lipids-gclc-ms-analysis" class="table-of-contents__link toc-highlight">Worm  CHLOROFORM extraction for total lipids GC/LC-MS analysis</a></li><li><a href="#methylamine-treatment-for-sphingolipid-analysis-on-ms-basic-hydrolysis-of-ester-bonds-to-remove-glycerolipids" class="table-of-contents__link toc-highlight">Methylamine treatment for sphingolipid analysis on MS (basic hydrolysis of ester bonds to remove glycerolipids)</a></li><li><a href="#n-butanol-extraction-to-desalt-samples-for-ms-analysis" class="table-of-contents__link toc-highlight">n-butanol extraction to desalt samples for MS analysis</a></li><li><a href="#alternative-n-butanol-extraction-to-desalt-samples-for-ms-analysis" class="table-of-contents__link toc-highlight">Alternative n-butanol extraction to desalt samples for MS analysis</a></li></ul></li><li><a href="#determination-of-total-phosphorus-content" class="table-of-contents__link toc-highlight">Determination of total phosphorus content</a><ul><li><a href="#material-and-solutions" class="table-of-contents__link toc-highlight">Material and solutions</a></li><li><a href="#protocol-8" class="table-of-contents__link toc-highlight">Protocol</a></li></ul></li><li><a href="#phospholipids-and-sphingolipids--sample-preparation-running-on-tsq-and-analysis-through-the-pipeline" class="table-of-contents__link toc-highlight">Phospholipids and Sphingolipids : Sample preparation, running on TSQ and analysis through the pipeline</a><ul><li><a href="#sample-preparation" class="table-of-contents__link toc-highlight">Sample preparation</a></li><li><a href="#sample-running-on-the-mass-spectrometer-tsq-vantage" class="table-of-contents__link toc-highlight">Sample Running on the Mass Spectrometer (TSQ Vantage)</a></li><li><a href="#analysis-on-the-lipidx-pipeline" class="table-of-contents__link toc-highlight">Analysis on the LipidX pipeline</a></li></ul></li><li><a href="#sterols-sample-preparation-running-on-the-varian-320ms-and-analysis" class="table-of-contents__link toc-highlight">Sterols: Sample preparation, running on the VARIAN 320MS and analysis</a><ul><li><a href="#sample-preparation-1" class="table-of-contents__link toc-highlight">Sample preparation</a></li><li><a href="#sample-running-on-the-mass-spectrometer-320ms" class="table-of-contents__link toc-highlight">Sample Running on the Mass Spectrometer (320MS)</a></li><li><a href="#analysis" class="table-of-contents__link toc-highlight">Analysis</a></li></ul></li><li><a href="#internal-standards-for-lc-gc--ms" class="table-of-contents__link toc-highlight">Internal standards for LC-GC / MS</a><ul><li><a href="#important-1" class="table-of-contents__link toc-highlight">Important</a></li><li><a href="#standards-used-for-lipidomic" class="table-of-contents__link toc-highlight">Standards used for lipidomic</a></li><li><a href="#preparation-of-the-standard-mixes" class="table-of-contents__link toc-highlight">Preparation of the standard mixes</a></li></ul></li><li><a href="#detection-on-the-mass-spectrometer" class="table-of-contents__link toc-highlight">Detection on the Mass Spectrometer</a><ul><li><a href="#lc-ms-on-tsq" class="table-of-contents__link toc-highlight">LC-MS on TSQ</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Navigation</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/memento/blog">Blog</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.bilibili.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Bilibili<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://tutorial.docusaurus.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tutorial<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024-2025 toxintoxin Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
