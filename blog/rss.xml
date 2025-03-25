@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>JY's memento Blog</title>
-        <link>https://toxintoxin.github.io/memento/blog</link>
+        <link>https://toxintoxin.github.io/memento-docusaurus/blog</link>
         <description>JY's memento Blog</description>
         <lastBuildDate>Sat, 25 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,18 +10,18 @@
         <language>en</language>
         <item>
             <title><![CDATA[Blade Runner]]></title>
-            <link>https://toxintoxin.github.io/memento/blog/2022/06/25/blade-runner</link>
-            <guid>https://toxintoxin.github.io/memento/blog/2022/06/25/blade-runner</guid>
+            <link>https://toxintoxin.github.io/memento-docusaurus/blog/2022/06/25/blade-runner</link>
+            <guid>https://toxintoxin.github.io/memento-docusaurus/blog/2022/06/25/blade-runner</guid>
             <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[不管去哪里，你都不得不做一些错事。这是生命的基本条件，要求你违背自己认同的身份。在某些时候，每个活着的生命都必须这么做。这就是终极的阴影，造物的缺陷。这是终极诅咒，那个所有生命的诅咒。整个宇宙都是这样。]]></description>
             <content:encoded><![CDATA[<blockquote>
 <p>不管去哪里，你都不得不做一些错事。这是生命的基本条件，要求你违背自己认同的身份。在某些时候，每个活着的生命都必须这么做。这就是终极的阴影，造物的缺陷。这是终极诅咒，那个所有生命的诅咒。整个宇宙都是这样。</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" alt="rachael-1" src="https://toxintoxin.github.io/memento/assets/images/Blade.Runner.1982.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv_002019.027-535961dedd520877d7f9a452de363ba6.png" width="3840" height="1600" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="rachael-1" src="https://toxintoxin.github.io/memento-docusaurus/assets/images/Blade.Runner.1982.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv_002019.027-535961dedd520877d7f9a452de363ba6.png" width="3840" height="1600" class="img_ev3q"></p>
 <blockquote>
 <p>Implants! Those aren't your memories. They're somebody else's.</p>
 </blockquote>
-<p><img decoding="async" loading="lazy" alt="rachael-2" src="https://toxintoxin.github.io/memento/assets/images/Blade.Runner.1982.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv_003401.790-48e09ec0ec8897cb3934ab66e75feab0.png" width="3840" height="1600" class="img_ev3q"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="rachael-2" src="https://toxintoxin.github.io/memento-docusaurus/assets/images/Blade.Runner.1982.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv_003401.790-48e09ec0ec8897cb3934ab66e75feab0.png" width="3840" height="1600" class="img_ev3q"></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
