@@ -4,7 +4,7 @@
 
 - siRNA（公司一般会提供3种siRNA，1个通用阴性对照，1个FAM标记通用阴性对照，1个GAPDH阳性对照）
 - 转染试剂为Lipo2000或Lipo3000
-- Opti-MEM (或者简单化为无抗生素无血清培养基)
+- Opti-MEM，或者简单化为无抗生素无血清培养基（特殊的，若转染BMDM的话，需补充20ng/mL的M-CSF）
 
 ## 环境
 
@@ -38,6 +38,9 @@
 | 6-well         | 10 cm <sup>2</sup>              | 2 ml                   | 2 x 250 µl                          | 100 pmol | 5 µl               |
 | 60-mm          | 20 cm <sup>2</sup>              | 5 ml                   | 2 x 0.5 ml                          | 200 pmol | 10 µl              |
 | 10-cm          | 60 cm <sup>2</sup>              | 15 ml                  | 2 x 1.5 ml                          | 600 pmol | 30 µl              |
+
+<sup>1</sup> Surface areas may vary depending on the manufacturer.  
+<sup>2</sup> Volumes of dilution medium in Step 2a & 2b of DNA or RNAi transfection protocols.  
 
 ## Reference
 
